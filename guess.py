@@ -9,10 +9,9 @@ while True:
 	if test == r:
 		print("終於猜對了")
 		break
-	else:
-		if test > r:
-			print('比答案大')
-		else:
-			print('比答案小')
+	elif test > r:
+		print('比答案大')
+	elif test < r:
+		print('比答案小')
 
 
